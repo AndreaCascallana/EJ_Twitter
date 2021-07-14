@@ -59,7 +59,7 @@ const dataTwitter = {
         name: 'Pepe',
         account: '@Pepehola',
         picture: 'https://uifaces.co/our-content/donated/KtCFjlD4.jpg',
-        text: 'alguna piedra en el camino',
+        text: 'alguna piedra en el camino ',
         comments: 0,
         rts: 0,
         likes: 0,
