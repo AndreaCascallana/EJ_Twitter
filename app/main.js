@@ -190,8 +190,7 @@ const renderTweetMessages = () => {
     let tweetContent = document.querySelector('.tweet_feed');
     let tweetHTML = "";
 
-    dataTwitter.tweets.filter(tweets => tweets.text.includes(filterTerm))
-        .forEach(tweet => {
+    dataTwitter.tweets.forEach(tweet => {
             tweetHTML += `
                 <div class="tweet">
                     <div class="tweet_user_picture">
