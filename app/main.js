@@ -1,13 +1,13 @@
 
 
-window.addEventListener('load', () => {
+window.onload =() => {
     renderMainNavigation();
     renderTweetMessages();
     initFormEvent();
     resetTimeLine();
     initModalTweetEvent();
     trendingTopic();
-});
+};
 
 
 
