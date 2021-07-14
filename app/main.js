@@ -1,8 +1,5 @@
 
 
-const filterTerm = location.search.replace("?s=", "");
-
-
 window.addEventListener('load', () => {
     renderMainNavigation();
     renderTweetMessages();
